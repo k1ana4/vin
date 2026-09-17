@@ -1,10 +1,14 @@
-.App {
-  text-align: center;
+:root{
+  --purp: #CC9CFF;
+  --periwinkle: #B1BFFF;
+  --blu: #82AAFF;
+  --firooz: #B1DFFF;
+  --main-text: #233163;
+  --second-text: #FFFFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(to top right, var(--blu), var(--purp));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
