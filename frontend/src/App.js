@@ -1,10 +1,10 @@
 import './App.css';
+import Header from './components/Header'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
+    <div className="App-container">
+      <Header title = '"Comparison is the thief of joy"'></Header>
     </div>
   );
 }
