@@ -49,3 +49,24 @@
 .welcome-msg {
   margin-top: 10%;
 }
+
+.create-card {
+  background: var(--firooz);
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 95%;
+  display: flex;
+  color: var(--main-text);
+}
+
+.plus-button {
+  background:url(./plus-sign.png) no-repeat;
+  cursor: pointer;
+  border: none;
+  width: 100px;
+  height: 100px;
+}
+
+/* .plus-button:active {
+  background:url(./plus-sign.png) no-repeat;
+} */
