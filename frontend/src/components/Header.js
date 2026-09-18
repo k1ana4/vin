@@ -1,10 +1,14 @@
 import '../App.css';
+import logo from '../vinny-logo.png';
 
-const Header = ({ image, title }) => {
+const Header = ({ title }) => {
     return (
-        <header className = "top-bar">
-            <h1>{title}</h1>
-        </header>
+        <div className = "top-bar">
+            <img src = {logo} alt = "Logo" />
+            <header>
+                <h2>{title}</h2>
+            </header>
+        </div>
     )
 }
 
