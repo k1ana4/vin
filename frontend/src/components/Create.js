@@ -1,10 +1,10 @@
 import '../App.css';
-import icon from '../plus-sign.png';
+import plus from '../icons/plus-sign.png';
 
 const Create = () => {
     return (
         <div className = "create-card">
-            <img src = {icon} alt = 'plus icom' className = "plus-button" ></img>
+            <img src = {plus} alt = 'plus icon' className = "plus-button" ></img>
             <p>Create your first resume!</p>
         </div>
     )
