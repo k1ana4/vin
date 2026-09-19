@@ -4,6 +4,7 @@
   --purp: #CC9CFF;
   --periwinkle: #B1BFFF;
   --blu: #82AAFF;
+  --bar-blu: #A0B7FF;
   --firooz: #B1DFFF;
   --main-text: #233163;
   --second-text: #FFFFFF;
@@ -23,7 +24,7 @@
 .top-bar {
   display: flex;
   position: relative;
-  background: var(--periwinkle);
+  background: var(--bar-blu);
   width: 100%;
   color: var(--second-text);
   
@@ -72,18 +73,47 @@
 }
 
 .nav-bar {
-  background: var(--periwinkle);
+  background: var(--bar-blu);
+  display: flex;
   position: fixed;
   bottom: 0;
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  gap: 10rem;
 }
 
 .nav-bar ul {
   display: flex;
+  flex-direction: column;
   list-style-type: none;
   margin: 0.5rem;
-  padding: 0.5rem;
-  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.res-button img {
+  width: 2.5rem;
+  height: auto;
+}
+
+.opp-button img {
+  width: 2.5rem;
+  height: auto;
+}
+
+.prof-button img {
+  width: 1.9rem;
+  height: auto;
+}
+
+.comm-button img {
+  width: 3rem;
+  height: auto;
+}
+
+.badg-button img {
+  width: 2.6rem;
+  height: auto;
 }

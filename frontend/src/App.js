@@ -1,6 +1,6 @@
 import './App.css';
-import Header from './components/Header'
-import Welcome from './components/Welcome'
+import Header from './components/Header';
+import Welcome from './components/Welcome';
 import Create from './components/Create';
 import Nav from './components/Nav-bar';
 
