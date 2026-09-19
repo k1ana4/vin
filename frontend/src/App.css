@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap');
+
+:root{
+  --purp: #CC9CFF;
+  --periwinkle: #B1BFFF;
+  --blu: #82AAFF;
+  --bar-blu: #A0B7FF;
+  --firooz: #B1DFFF;
+  --main-text: #233163;
+  --second-text: #FFFFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App-container {
+  background-image: linear-gradient(to top right, var(--blu), var(--purp));
   min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Comme', sans-serif;
+  color: var(--second-text);
+}
+
+.top-bar {
+  display: flex;
+  position: relative;
+  background: var(--bar-blu);
+  width: 100%;
+  color: var(--second-text);
+  
+}
+
+.top-bar img {
+  border-radius: 10px;
+  margin: 0.5rem;
+  width: 2rem;
+  height: auto;
+}
+
+.top-bar h2 {
+  position: absolute;
+  margin-top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.welcome-msg {
+  margin-top: 13%;
+}
+
+.create-card {
+  background: var(--firooz);
+  position: relative;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 95%;
+  display: flex;
+  color: var(--main-text);
+  cursor: pointer;
+}
+
+.plus-button {
+  width: 50px;
+  height: 50px;
+}
+
+.create-card p {
+  position: absolute;
+  margin-left: 5%;
+}
+
+.nav-bar {
+  background: var(--bar-blu);
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  gap: 10rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0.5rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 0.7rem;
+  cursor: pointer;
+  margin-left: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.res-button img {
+  width: 2.5rem;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.opp-button img {
+  width: 2.5rem;
+  height: auto;
+}
+
+.prof-button img {
+  width: 1.9rem;
+  height: auto;
+}
+
+.comm-button img {
+  width: 3rem;
+  height: auto;
+}
+
+.badg-button img {
+  width: 2.6rem;
+  height: auto;
 }
