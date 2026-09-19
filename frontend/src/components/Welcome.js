@@ -1,8 +1,8 @@
 import '../App.css';
 
-const Welcome = ({ message }) => {
+const Welcome = ({ message, user }) => {
     return (
-        <h1 className = "welcome-msg" >{message}</h1>
+        <h1 className = "welcome-msg" >{message}, {user} </h1>
     )
 }
 

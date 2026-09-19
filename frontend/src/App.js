@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="App-container">
       <Header title = '"Comparison is the thief of joy"'></Header>
-      <Welcome message = 'Welcome, user'></Welcome>
+      <Welcome message = "Welcome" user = "user" ></Welcome>
       <Create></Create>
     </div>
   );
